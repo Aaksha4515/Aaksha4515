@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @Aakshd4515
+- 👋 Hi, I’m @Akshit Dwivedi
 - 👀 I’m interested in making new projects and learn from it.
 - 🌱 I’m currently learning many things.
 - 💞️ I’m looking to collaborate on ...
