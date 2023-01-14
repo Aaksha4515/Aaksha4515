@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Rancho ">
+<style>
+body {
+  font-family: 'Rancho ', serif;
+  text-shadow: 6px 6px 4px #aaa;
+  background:#04aa6d;
+  }
+  p{
+  text-align:center;
+  font-size:72px;
+  margin-top:200px;
+  color:white;
+}
+h1{
+  text-align: Center;
+  color:white;
+  font-size:30px;
+}
+</style>
+</head>
+<body>
+  <h1>Happy Birthday to the best and favorite sister ❤️</h1>
+<p id="demo"></p>
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 16, 2023 00:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "HAPPY BIRTHDAY TO MY BESTFRIEND, MY JAAN, MY TEACHER, MY MOTIVATOR AND THE PERSON  WHO IS ALWAYS BESIDES ME WHENEVER I NEED HER.... THE PERSON WHO ALWAYS WITH ME IN MY SAD AND BAD PHASES AND IN EVERY HAPPY MOMENT OF MY LIFE..... MAY GOD FULLFILL ALL YOUR WISHES AND COMPLETE ALL YOUR DREAMS AND SHOWER THEIR BLESSINGS AND HAPPINESS TO YOU AND KEEP YOU HAPPY AND MOTIVATED ALWAYS.... AT LAST HAPPY BIRTHDAY AND PLEASE STAY ALWAYS WITH ME WHENEVER I NEED YOU PLEASE COME TO ME AND JUST HELP ME JUST LIKE ALWAYS AND IF YOU NEED ME THEN YOUR BROTHER IS ALWAYS WITH YOU JUST REMEMBER ME ONCE...... ENJOY YOU DAY ....... AND THANK YOU.... Love you ❤️❤️😘😘.... Lots of hugs and kisses...... A SMALL GIFT FROM YOUR JAAN ";
+  }
+}, 1000);
+</script>
+
+</body>
+</html>
